@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: bisque;
+    background-image: url("images/bg-image4.jpg");
 }
 
 header {
