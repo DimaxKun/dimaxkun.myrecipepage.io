@@ -23,10 +23,12 @@ main {
 .recipe-card {
     height: auto;
     width: 300px;
-    margin: 20px; 
+    margin-right: 20px;
+    margin-left: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 40px;
 }
 
 .recipe-card img {
@@ -35,13 +37,15 @@ main {
     object-fit: cover; 
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    border-radius: 5px;
+    margin: 0;
 }
 
 footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 0;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -54,6 +58,7 @@ h2 {
     padding-bottom: 5px;
     background-color: #333; 
     color: white;
+    border-radius: 5px;
 }
 
 .recipe-desc {
@@ -63,20 +68,23 @@ h2 {
     color: white;
     background-color: #f6834f;
     border-radius: 0 0 5px 5px; 
+    border-radius: 5px;
 }
 
 h5 {
     text-align: center;
     background-color: #e47c66;
     color: black;
-    border-radius: 50px;
+    border-radius: 10px;
     padding: 10px;
+    margin: 0;
+    margin-top: 10px;
 }
 
 h4 {
     background-color: #fcefc4;
     color: black;
-    border-radius: 50px;
+    border-radius: 10px;
     padding: 5px;
     margin: 10px;
 }
